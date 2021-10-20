@@ -1,0 +1,35 @@
+/* DEL-TN-J : Jueves*/
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#principal{
+    background-color: azure;
+    width: 70%;
+    margin: 0px auto;
+}
+nav a{
+    text-decoration: none;
+}
+#contenedor,article,nav{
+    display: flex;
+    flex-direction: row;
+}
+main,.contenido{
+    flex: 3;
+}
+aside,img,a{
+    flex: 1;
+}
+img{
+    width: 0px;
+    /* min-height: 100px; */
+}
+article{
+    border: 1px black solid;
+    padding: 5px, 10px, 5px, 10px;
+    margin: 15px;
+    padding: 10px;
+    background-color: blueviolet;
+} 

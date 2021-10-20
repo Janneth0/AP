@@ -1,0 +1,28 @@
+/* DEL-TN-MI : Miercoles*/
+body{
+    background-color: aquamarine;
+    /* margin: 0; */
+    text-align: center;
+}
+#principal{
+    background-color: burlywood;
+    width: 70%;
+    margin: 0px auto;
+}
+#contenedor,article{
+    display: flex;
+    flex-direction: row;
+}
+main,.contenido{
+    flex:3;
+}
+aside,img{
+    /* position: absolute; */
+    flex:1;
+}
+img{
+    width:150px;
+}
+article{
+    padding: 10px;
+}

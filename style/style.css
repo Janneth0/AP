@@ -1,0 +1,61 @@
+/* Estilo sin Display Flex */
+body{
+    text-align: center;
+    background-image: url("../img/Simpsons/fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#principal{
+    background-color: rgba(255, 253, 240, 0.945);
+    width: 60%;
+    margin-left: 20%;
+}
+main{
+    width: 70%;
+    float: left;
+}
+aside{
+    width: 20%;
+    float: right;
+    border: 1px black solid ;
+}
+footer{
+    clear: both;
+}
+
+
+.contenido{
+    width: 75%;
+    float: right;
+}
+article{
+    width: 80%;
+}
+img{
+    width: 25%;
+}
+
+
+
+
+
+a:link{
+    color:red;
+}
+a:visited{
+    color: green;
+
+    display: block;
+
+    display: inline;
+
+    display: inline-block;
+
+    display: none;
+}                                  
+a:hover{
+    color:indigo;
+}
+a:active{
+    color:lawngreen;
+}

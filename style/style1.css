@@ -1,0 +1,43 @@
+/* DEL-TN-L : Lunes */
+body{
+    margin: 0;
+    text-align: center;
+}
+#principal{
+    width: 70%;
+    background-color: lightcoral;
+    margin: 0px auto;
+}
+img{
+    width:0px;
+}
+#contenedor,article,nav{
+    display: flex;
+    flex-direction: row;
+}
+main,.contenido{
+   flex: 3;
+}
+aside,img,a{
+    flex:1;
+}
+article{
+    margin: 10px;
+    border: 1px black solid;
+}
+a{
+    border-radius: 20px;
+    border: 1px black solid;
+    margin: 5px;
+    padding: 5px;
+    background-color: blueviolet;
+    color: burlywood;
+    text-decoration: none;
+}
+a:hover{
+    background-color: coral;
+    color: darkblue;
+}
+h1:hover{
+    color: darkred;
+}

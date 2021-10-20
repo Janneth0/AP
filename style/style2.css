@@ -1,0 +1,72 @@
+/* DEL-TN-MA : Martes*/
+
+body{
+    background-image: url("../img/Simpsons/fondo.jpg");
+    margin: 0;
+    padding: 0;
+    color:rgb(250, 245, 245);
+}
+#principal{
+    width: 70%;
+    background-color: rgba(47, 0, 255, 0.959);
+    margin:0px auto;
+}
+#contenedor,article, nav{
+    display: flex;
+    flex-direction: row;
+}
+main,.contenido{
+    flex: 3;
+}
+aside,img,a{
+    flex: 1;
+}
+img{
+    width:0px;
+    opacity: 0.8;
+}
+header,nav,footer{
+    text-align: center;
+}
+article{
+    border: 1px black solid;
+    padding: 10px;
+    margin: 30px;
+    background-color: blanchedalmond;
+    color: black;
+}
+header{
+    border: black 1px solid;
+}
+nav a{
+    text-decoration: none;
+    background-color: azure;
+    border: 1px black solid;
+}
+a{
+    color: rgb(76, 0, 255);
+    padding: 10px 5px;
+    margin:10px 20px;
+    border-radius: 20px;
+}
+a:hover{
+    /* background-color: darkblue; */
+    background-image: url("../img/Simpsons/bart.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    color:wheat;
+}
+.lisa:hover{
+    background-image: url("../img/Simpsons/lisa.png");
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    color:wheat;
+}
+h1:hover{
+    color: black;
+}
+
+
+
